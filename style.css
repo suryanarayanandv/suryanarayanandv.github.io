@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg);
+    background-size: cover;
+  }
+
+  .box h1{
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.box{
+    width: 750px;
+    height: 1200px;
+    background: rgba(1, 2, 4, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+  }
+
+  .box p{
+      color: rgba(215, 215, 225, 120);
+      font-size: 30px;
+      letter-spacing: 3px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
